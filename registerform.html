@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title> Registation Form</title>
+</head>
+<body>
+
+<table align="center">
+<h1 align="center" style="color:blueviolet"> Fans Club Registation Form</h1>
+<form autocomplete="off">
+<tr>
+	<td>Name</td>
+	<td><input type="text" placeholder="Enter your Name" required autofocus="on"></td>
+</tr>
+<tr>
+	<td>Mobile No</td>
+	<td><input type="text" placeholder="Enter your Mobile Number" maxlength="10" pattern="[0-9]{10}" autofocus="on" required></td>
+</tr>
+<tr>
+	<td>Email<br>ID</td>
+	<td><input type="email" placeholder="Enter your Email" autofocus="on" required></td>	
+</tr>
+<tr>
+	<td>Sex</td>
+	<td><input type="radio" name="gender">Male
+		<input type="radio" name="gender" required>Female</td>
+</tr>
+<tr>
+	<td>City</td>
+	<td><select mutiple>
+		<option selected>select..       </option>
+		<option>Chennai</option>
+		<option>Madurai</option>
+		<option>Coimbatore</option></select></td>
+</tr>
+<tr>
+	<td>Pincode</td>
+	<td><input type="text" maxlength="6"></td>
+</tr>
+<tr>
+<td>Would you like Virat describe<br>about him below 200 words</td>
+<td><textarea rows="5" cols="30" placeholder="Description"></textarea></td>
+</tr>
+<tr>
+	<td><input type="reset" value="Reset"></td>
+	<td><input type="submit" value="Submit Form"></td>
+</tr>
+</form>
+</table>
+<hr>
+<center>
+<h1><a href="homepage.html">Homepage</a></h1>
+</center>
+</body>
+</html>
